@@ -1539,9 +1539,13 @@ form[data-members-form] .gh-button {
 }
 
 .gh-feature-image {
-    grid-column: wide-start/wide-end;
-    width: 100%;
-    margin: 6vmin 0 4vmin
+  min-height: 100%;
+  height: 380px;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
 }
 
 .gh-canvas blockquote, .gh-canvas dl, .gh-canvas ol, .gh-canvas p, .gh-canvas ul {
