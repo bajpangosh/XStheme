@@ -148,6 +148,7 @@ h6 {
 
 h1 {
     font-size: 4.6rem;
+    font-family: 'Noto Sans Malayalam', sans-serif;
     letter-spacing: -0.5px;
 }
 @media (max-width: 500px) {
