@@ -9,6 +9,30 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+/*
+ * Noto Sans Malayalam (Malayalam) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans Malayalam';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansMalayalam-Regular.eot);
+  src: url(../font/NotoSansMalayalam-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../font/NotoSansMalayalam-Regular.woff2) format('woff2'),
+       url(../font/NotoSansMalayalam-Regular.woff) format('woff'),
+       url(../font/NotoSansMalayalam-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Malayalam';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/NotoSansMalayalam-Bold.eot);
+  src: url(../font/NotoSansMalayalam-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../font/NotoSansMalayalam-Bold.woff2) format('woff2'),
+       url(../font/NotoSansMalayalam-Bold.woff) format('woff'),
+       url(../font/NotoSansMalayalam-Bold.ttf) format('truetype');
+}
+
 body {
     min-height: 100vh;
     color: #454545;
