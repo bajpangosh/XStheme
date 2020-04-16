@@ -1379,6 +1379,7 @@ form[data-members-form] .gh-button {
 .gh-card-image {
     width: 200px;
     height: 180px;
+    border-radius: 5px;
     -o-object-fit: cover;
     object-fit: cover;
     margin-left: 4vmin
