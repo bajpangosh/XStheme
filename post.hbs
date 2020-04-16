@@ -76,8 +76,9 @@
         <p class="gh-post-authors">
             Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a> {{/foreach}} in {{tags}}
         </p>
-        buttons
+
         <div class="share-buttons col-sm text-right">
+          buttons
 					<a href="whatsapp://send?text={{encode title}} &rarr; {{url absolute="true"}}" target="_blank" rel="noopener" class="btn btn-sm whatsapp"><i class="fab fa-whatsapp"></i></a>
 					<a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute='true'}}" target="_blank" rel="noopener" class="btn btn-sm twitter" onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
 					<a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute='true'}}" target="_blank" rel="noopener" class="btn btn-sm facebook" onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;"><i class="fab fa-facebook-square"></i></a>
