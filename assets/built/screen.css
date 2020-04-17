@@ -58,15 +58,49 @@ ol[class], ul[class] {
     list-style: none
 }
 
-.share-buttons {
-  color: #fff!important;
-  font-size: .8rem;
+#social-container {
+  animation-name: slideIn;
+  animation-duration: 1s;
+  position: fixed;
+  left: 0;
+  top: 30%;
+  z-index: 999;
 }
 
-.share-buttons .whatsapp {
-  background-color: #25d366;
+#social-container .platform {
+  width: 48px;
+  height: 48px;
+  background: grey;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
 }
 
+#social-container .platform:hover {
+  width: 56px;
+  transition: all 0.25s;
+}
+
+#social-container .platform:hover svg {
+  transform: translate(10px);
+  transition: all 0.25s;
+}
+
+#social-container .platform svg {
+  fill: rgb(255, 255, 255);
+}
+
+#social-container .platform.facebook {
+  background-color: rgb(59, 89, 152);
+}
+
+#social-container .platform.twitter {
+  background: rgb(29, 161, 242);
+}
+
+#social-container .platform.whatsapp {
+  background-color: rgb(84, 167, 100);
+}
 
 
 img {
