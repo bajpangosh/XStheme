@@ -116,6 +116,7 @@ fieldset {
     border: 0
 }
 
+
 label {
     font-size: .9em;
     font-weight: 700
@@ -1626,6 +1627,20 @@ form[data-members-form] .gh-button {
     -o-object-fit: cover;
     object-fit: cover
 }
+
+
+.gh-author-pic {
+    height: 12vmin;
+    width: 12vmin;
+    margin: 0 auto 1.5em;
+    border-radius: 100%;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+
+
 
 .gh-author-meta {
     margin: 2vmin 0 0;
