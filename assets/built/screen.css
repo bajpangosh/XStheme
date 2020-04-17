@@ -13,24 +13,25 @@ html {
  * Noto Sans Malayalam (Malayalam) http://www.google.com/fonts/earlyaccess
  */
 @font-face {
-  font-family: 'Noto Sans Malayalam';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../font/NotoSansMalayalam-Regular.eot);
-  src: url(../font/NotoSansMalayalam-Regular.eot?#iefix) format('embedded-opentype'),
-       url(../font/NotoSansMalayalam-Regular.woff2) format('woff2'),
-       url(../font/NotoSansMalayalam-Regular.woff) format('woff'),
-       url(../font/NotoSansMalayalam-Regular.ttf) format('truetype');
+    font-family: 'Noto Sans Malayalam';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/NotoSansMalayalam-Regular.eot);
+    src: url(../font/NotoSansMalayalam-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../font/NotoSansMalayalam-Regular.woff2) format('woff2'),
+        url(../font/NotoSansMalayalam-Regular.woff) format('woff'),
+        url(../font/NotoSansMalayalam-Regular.ttf) format('truetype');
 }
+
 @font-face {
-  font-family: 'Noto Sans Malayalam';
-  font-style: normal;
-  font-weight: 700;
-  src: url(../font/NotoSansMalayalam-Bold.eot);
-  src: url(../font/NotoSansMalayalam-Bold.eot?#iefix) format('embedded-opentype'),
-       url(../font/NotoSansMalayalam-Bold.woff2) format('woff2'),
-       url(../font/NotoSansMalayalam-Bold.woff) format('woff'),
-       url(../font/NotoSansMalayalam-Bold.ttf) format('truetype');
+    font-family: 'Noto Sans Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/NotoSansMalayalam-Bold.eot);
+    src: url(../font/NotoSansMalayalam-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../font/NotoSansMalayalam-Bold.woff2) format('woff2'),
+        url(../font/NotoSansMalayalam-Bold.woff) format('woff'),
+        url(../font/NotoSansMalayalam-Bold.ttf) format('truetype');
 }
 
 body {
@@ -59,47 +60,46 @@ ol[class], ul[class] {
 }
 
 #social-container {
-  animation-name: slideIn;
-  animation-duration: 1s;
-  position: fixed;
-  bottom: 0;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    position: fixed;
+    bottom: 0;
 }
 
 #social-container .platform {
-  width: 48px;
-  height: 48px;
-  background: grey;
-  padding: 8px;
-  cursor: pointer;
-  display: flex;
+    width: 48px;
+    height: 48px;
+    background: grey;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
 }
 
 #social-container .platform:hover {
-  width: 56px;
-  transition: all 0.25s;
+    width: 56px;
+    transition: all 0.25s;
 }
 
 #social-container .platform:hover svg {
-  transform: translate(10px);
-  transition: all 0.25s;
+    transform: translate(10px);
+    transition: all 0.25s;
 }
 
 #social-container .platform svg {
-  fill: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
 }
 
 #social-container .platform.facebook {
-  background-color: rgb(59, 89, 152);
+    background-color: rgb(59, 89, 152);
 }
 
 #social-container .platform.twitter {
-  background: rgb(29, 161, 242);
+    background: rgb(29, 161, 242);
 }
 
 #social-container .platform.whatsapp {
-  background-color: rgb(84, 167, 100);
+    background-color: rgb(84, 167, 100);
 }
-
 
 img {
     display: block;
@@ -115,7 +115,6 @@ fieldset {
     padding: 0;
     border: 0
 }
-
 
 label {
     font-size: .9em;
@@ -1584,13 +1583,13 @@ form[data-members-form] .gh-button {
 }
 
 .gh-feature-image {
-  min-height: 100%;
-  height: auto;
-  border-radius: 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #fff;
+    min-height: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
 }
 
 .gh-canvas blockquote, .gh-canvas dl, .gh-canvas ol, .gh-canvas p, .gh-canvas ul {
@@ -1627,20 +1626,6 @@ form[data-members-form] .gh-button {
     -o-object-fit: cover;
     object-fit: cover
 }
-
-
-.gh-author-pic {
-    height: 12vmin;
-    width: 12vmin;
-    margin: 0 auto 1.5em;
-    border-radius: 100%;
-    overflow: hidden;
-    -o-object-fit: cover;
-    object-fit: cover
-}
-
-
-
 
 .gh-author-meta {
     margin: 2vmin 0 0;
