@@ -62,7 +62,7 @@ ol[class], ul[class] {
 #social-container {
     animation-name: slideIn;
     animation-duration: 1s;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
