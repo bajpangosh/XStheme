@@ -63,7 +63,6 @@ ol[class], ul[class] {
   animation-duration: 1s;
   position: fixed;
   bottom: 0;
-  z-index: 4999991;
 }
 
 #social-container .platform {
