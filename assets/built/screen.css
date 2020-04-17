@@ -63,7 +63,7 @@ ol[class], ul[class] {
   animation-duration: 1s;
   position: fixed;
   bottom: 0;
-  top: 30%;
+  height: 51px;
   z-index: 4999991;
 }
 
