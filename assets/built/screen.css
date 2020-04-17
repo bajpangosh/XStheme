@@ -62,7 +62,7 @@ ol[class], ul[class] {
   animation-name: slideIn;
   animation-duration: 1s;
   position: fixed;
-  left: 0;
+  bottom: 0;
   top: 30%;
   z-index: 999;
 }
