@@ -64,7 +64,7 @@ ol[class], ul[class] {
   position: fixed;
   bottom: 0;
   top: 30%;
-  z-index: 999;
+  z-index: 4999991;
 }
 
 #social-container .platform {
